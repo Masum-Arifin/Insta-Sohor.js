@@ -25,7 +25,7 @@ const reportPost = (id) => {
   const remainingPosts = posts.filter(
     (post) => !reportedPostsId.includes(post.id)
   );
-  showPosts(remainingPosts);
+  // showPosts(remainingPosts);
 };
 
 const displayContent = (text) => {
