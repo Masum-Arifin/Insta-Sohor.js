@@ -34,7 +34,7 @@ const displayContent = (text) => {
     : text.slice(0, 30) + "<span class='fw-bold'>... read more</span>";
 };
 
-// const switchTab = (id) => {
+const switchTab = (id) => {
   if (id === "posts") {
     document.getElementById("posts").style.display = "grid";
     document.getElementById("liked").style.display = "none";
