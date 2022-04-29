@@ -76,15 +76,15 @@ const createPost = (post) => {
                 </button>
               </div>
 
-              <div class="post__content">
-                <div class="post__medias">
-                  <img
-                    class="post__media"
-                    src="${image}"
-                    alt="Post Content"
-                  />
-                </div>
-              </div>
+              // <div class="post__content">
+              //   <div class="post__medias">
+              //     <img
+              //       class="post__media"
+              //       src="${image}"
+              //       alt="Post Content"
+              //     />
+              //   </div>
+              // </div>
 
               <div class="post__footer">
                 <div class="post__buttons">
