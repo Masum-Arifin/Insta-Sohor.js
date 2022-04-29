@@ -60,7 +60,7 @@ const createPost = (post) => {
   div.classList.add("post");
   div.innerHTML = `
               <div class="post__header">
-                <div class="post__profile">
+                // <div class="post__profile">
                   <a
                     href="https://github.com/ProgrammingHero1"
                     target="_blank"
