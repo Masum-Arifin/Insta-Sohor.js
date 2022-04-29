@@ -45,13 +45,13 @@ const switchTab = (id) => {
     document.getElementById("reported").style.display = "none";
 
     displayLikedPosts();
-  } else {
-    document.getElementById("reported").style.display = "block";
-    document.getElementById("posts").style.display = "none";
-    document.getElementById("liked").style.display = "none";
+  // } else {
+  //   document.getElementById("reported").style.display = "block";
+  //   document.getElementById("posts").style.display = "none";
+  //   document.getElementById("liked").style.display = "none";
 
-    displayReportedPosts();
-  }
+  //   displayReportedPosts();
+  // }
 };
 
 const createPost = (post) => {
